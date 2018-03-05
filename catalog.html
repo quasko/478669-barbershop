@@ -7,14 +7,14 @@
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo">
-          <img src="img/index-logo.svg" width="368" height="153" alt="Логотип барбершопа Бородинский">
+        <a class="main-header-logo" href="index.html">
+          <img src="img/logo.svg" width="111" height="24" alt="Логотип барбершопа Бородинский">
         </a>
         <ul class="site-navigation">
           <li class="site-navigation-item"><a href="#">Информация</a></li>
           <li class="site-navigation-item"><a href="#">Новости</a></li>
           <li class="site-navigation-item"><a href="#">Прайс-лист</a></li>
-          <li class="site-navigation-item"><a href="#">Магазин</a></li>
+          <li class="site-navigation-item site-navigation-current"><a href="#">Магазин</a></li>
           <li class="site-navigation-item"><a href="#">Контакты</a></li>
         </ul>
         <ul class="user-navigation">
@@ -27,57 +27,126 @@
         <h1 class="main-header">Средства ухода</h1>
         <ul class="crumbs">
           <li class="crumbs-item"><a href="index.html">Главная</a></li>
-          <li class="crumbs-item"><a href="#">Магазин</a></li>
-          <li class="crumbs-item"><a href="#">Средства для ухода</a></li>
+          <li class="crumbs-item"><a href="catalog.html">Магазин</a></li>
+          <li class="crumbs-item crumbs-current">Средства для ухода</li>
         </ul>
       </section>
-      <aside class="catalog-filter">
-        <!-- здесь будет форма фильтра -->
-      </aside>
+      <section class="catalog-filter">
+        <h2 class="visually-hidden">Фильтр товаров</h2>
+        <!-- здесь будет форма -->
+      </section>
       <section class="catalog-products">
+        <h2 class="visually-hidden">Список товаров для ухода</h2>
         <ul class="products-list">
           <li class="product">
-            <img src="http://placehold.it/190x150" width="190" height="150" alt="Набор для путешествий «Baxter of California»">
-            <a class="product-name" href="#">Набор для путешествий «Baxter of California»</a>
-            <p class="product-price">2 900 &#8381;</p>
-            <a class="button button-buy">Купить</a>
+
+            <h3>
+              <a class="product-name" href="#">
+                <span class="catalog-category">Набор для путешествий</span>
+                <span class="catalog-item-title">«Baxter of California»</span>
+              </a>
+            </h3>
+            <p class="catalog-item-image">
+              <a href="#">
+                <img src="http://placehold.it/190x150" width="190" height="150" alt="Набор для путешествий «Baxter of California»">
+              </a>
+            </p>
+            <p class="product-price">
+              <b>2 900 &#8381;</b>
+              <a class="button button-buy" href="#">Купить</a>
+            </p>
           </li>
           <li class="product">
-            <img src="http://placehold.it/190x150" width="190" height="150" alt="Увлажняющий кондиционер «Baxter of California»">
-            <a class="product-name" href="#">Увлажняющий кондиционер «Baxter of California»</a>
-            <p class="product-price">750 &#8381;</p>
-            <a class="button button-buy">Купить</a>
+            <h3>
+              <a class="product-name" href="#">
+                <span class="catalog-category">Увлажняющий кондиционер</span>
+                <span class="catalog-item-title">«Baxter of California»</span>
+              </a>
+            </h3>
+            <p class="catalog-item-image">
+              <a href="#">
+                <img src="http://placehold.it/190x150" width="190" height="150" alt="Увлажняющий кондиционер «Baxter of California»">
+              </a>
+            </p>
+            <p class="product-price">
+              <b>750 &#8381;</b>
+              <a class="button button-buy" href="#">Купить</a>
+            </p>
           </li>
           <li class="product">
-            <img src="http://placehold.it/190x150" width="190" height="150" alt="Гель для волос «SUAVECITO»">
-            <a class="product-name" href="#">Гель для волос «SUAVECITO»</a>
-            <p class="product-price">290 &#8381;</p>
-            <a class="button button-buy">Купить</a>
+            <h3>
+              <a class="product-name" href="#">
+                <span class="catalog-category">Гель для волос</span>
+                <span class="catalog-item-title">«SUAVECITO»</span>
+              </a>
+            </h3>
+            <p class="catalog-item-image">
+              <a href="#">
+                <img src="http://placehold.it/190x150" width="190" height="150" alt="Гель для волос «SUAVECITO»">
+              </a>
+            </p>
+            <p class="product-price">
+              <b>290 &#8381;</b>
+              <a class="button button-buy" href="#">Купить</a>
+            </p>
           </li>
           <li class="product">
-            <img src="http://placehold.it/190x150" width="190" height="150" alt="Глина для укладки волос «American crew»">
-            <a class="product-name" href="#">Глина для укладки волос «American crew»</a>
-            <p class="product-price">500 &#8381;</p>
-            <a class="button button-buy">Купить</a>
+            <h3>
+              <a class="product-name" href="#">
+                <span class="catalog-category">Глина для укладки волос</span>
+                <span class="catalog-item-title">«American crew»</span>
+              </a>
+            </h3>
+            <p class="catalog-item-image">
+              <a href="#">
+                <img src="http://placehold.it/190x150" width="190" height="150" alt="Глина для укладки волос «American crew»">
+              </a>
+            </p>
+            <p class="product-price">
+              <b>500 &#8381;</b>
+              <a class="button button-buy" href="#">Купить</a>
+            </p>
           </li>
           <li class="product">
-            <img src="http://placehold.it/190x150" width="190" height="150" alt="Гель для волос «AMERICAN CREW»">
-            <a class="product-name" href="#">Гель для волос «AMERICAN CREW»</a>
-            <p class="product-price">300 &#8381;</p>
-            <a class="button button-buy">Купить</a>
+            <h3>
+              <a class="product-name" href="#">
+                <span class="catalog-category">Гель для волос</span>
+                <span class="catalog-item-title">«American crew»</span>
+              </a>
+            </h3>
+            <p class="catalog-item-image">
+              <a href="#">
+                <img src="http://placehold.it/190x150" width="190" height="150" alt="Гель для волос «AMERICAN CREW»">
+              </a>
+            </p>
+            <p class="product-price">
+              <b>300 &#8381;</b>
+              <a class="button button-buy" href="#">Купить</a>
+            </p>
           </li>
           <li class="product">
-            <img src="http://placehold.it/190x150" width="190" height="150" alt="Набор для бритья «Baxter of California»">
-            <a class="product-name" href="#">Набор для бритья «Baxter of California»</a>
-            <p class="product-price">3 900 &#8381;</p>
-            <a class="button button-buy">Купить</a>
+            <h3>
+              <a class="product-name" href="#">
+                <span class="catalog-category">Набор для бритья</span>
+                <span class="catalog-item-title">«Baxter of California»</span>
+              </a>
+            </h3>
+            <p class="catalog-item-image">
+              <a href="#">
+                <img src="http://placehold.it/190x150" width="190" height="150" alt="Набор для бритья «Baxter of California»">
+              </a>
+            </p>
+            <p class="product-price">
+              <b>3 900 &#8381;</b>
+              <a class="button button-buy" href="#">Купить</a>
+            </p>
           </li>
         </ul>
         <ul class="catalog-pagination">
-          <li class="catalog-pagination-item"><a href="#" class="button">1</a></li>
-          <li class="catalog-pagination-item"><a href="#" class="button current-page">2</a></li>
-          <li class="catalog-pagination-item"><a href="#" class="button">3</a></li>
-          <li class="catalog-pagination-item"><a href="#" class="button">4</a></li>
+          <li class="catalog-pagination-item"><a href="#">1</a></li>
+          <li class="catalog-pagination-item pagination-item-current"><a>2</a></li>
+          <li class="catalog-pagination-item"><a href="#">3</a></li>
+          <li class="catalog-pagination-item"><a href="#">4</a></li>
         </ul>
       </section>
 
@@ -102,5 +171,15 @@
           <a class="button" href="http://htmlacademy.ru">HTML Academy</a>
         </p>
       </footer>
+      <section class="modal modal-login">
+        <h2>Личный кабинет</h2>
+        <p>Введите свой логин и пароль</p>
+        <!-- здесь будет форма -->
+        <span class="modal-close"></span>
+      </section>
+      <section class="modal modal-map">
+        <h2 class="visually-hidden">Как до нас добраться</h2>
+        <span class="modal-close">x</span>
+      </section>
     </body>
   </html>
